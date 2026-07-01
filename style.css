@@ -261,5 +261,17 @@ img {
 }
 
 article {
-   margin-bottom: 100 px
+   margin-bottom: 100px;
+   
+}
+
+ul {
+   
+   margin-left: 10px;
+   margin-bottom:50px;
+}
+
+p {
+   margin-top: 10px;
+   
 }
