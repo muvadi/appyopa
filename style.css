@@ -176,6 +176,13 @@ img {
     margin-bottom: 10px;
 }
 
+h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+
 .section-subtitle {
     color: var(--text-light);
     margin-bottom: 50px;
