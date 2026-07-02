@@ -282,3 +282,35 @@ p {
    margin-top: 10px;
    
 }
+/* Allineamento flessibile per l'header */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Stile del selettore delle lingue */
+.language-switcher {
+    display: flex;
+    gap: 12px;
+}
+
+.lang-link {
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.lang-link:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.lang-link.active {
+    opacity: 1;
+    border-bottom: 2px solid #0052cc; /* Sostituisci con il colore primario del tuo brand se necessario */
+    padding-bottom: 2px;
+}
