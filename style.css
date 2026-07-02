@@ -365,5 +365,5 @@ p {
     display: block !important;
     object-fit: cover !important; /* Forza il riempimento perfetto senza deformare l'immagine */
     border-radius: 3px !important; /* Angoli leggermente arrotondati, molto eleganti */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important; /* Piccola ombra per staccarle dallo sfondo */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important; /* Piccola ombra per staccarle dallo sfondo ora */
 }
