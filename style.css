@@ -314,3 +314,56 @@ p {
     border-bottom: 2px solid #0052cc; /* Sostituisci con il colore primario del tuo brand se necessario */
     padding-bottom: 2px;
 }
+
+/* ==========================================
+   Selettore Lingua e Gestione Bandiere SVG
+   ========================================== */
+
+/* Forza l'header originale a distribuire logo a sinistra e bandiere a destra */
+.main-header .container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+}
+
+/* Contenitore delle bandiere */
+.language-switcher {
+    display: flex !important;
+    gap: 12px !important; /* Spazio uniforme tra i link delle lingue */
+    align-items: center !important;
+}
+
+/* Link che avvolge l'immagine */
+.language-switcher .lang-link {
+    display: inline-block !important;
+    width: 32px !important;   /* Larghezza esatta e uguale per tutte */
+    height: 21px !important;  /* Altezza proporzionata (rapporto ~3:2) */
+    opacity: 0.5;             /* Effetto semi-trasparente per le lingue non attive */
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+/* Effetto al passaggio del mouse */
+.language-switcher .lang-link:hover {
+    opacity: 1;
+    transform: scale(1.1);    /* Leggero zoom per feedback visivo */
+}
+
+/* Evidenziazione della lingua corrente */
+.language-switcher .lang-link.active {
+    opacity: 1;
+    outline: 2px solid #0052cc; /* Bordino colorato (sostituisci #0052cc con il tuo colore primario) */
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+/* Regole restrittive per le immagini SVG in locale */
+.language-switcher .flag-icon {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    object-fit: cover !important; /* Forza il riempimento perfetto senza deformare l'immagine */
+    border-radius: 3px !important; /* Angoli leggermente arrotondati, molto eleganti */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important; /* Piccola ombra per staccarle dallo sfondo */
+}
