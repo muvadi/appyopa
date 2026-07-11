@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Pagina Principale (Default) -->
+  <url>
+    <loc>https://muvadi.github.io/appyopa/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://muvadi.github.io/appyopa/index-it.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://muvadi.github.io/appyopa/index-br.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://muvadi.github.io/appyopa/index-es.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://muvadi.github.io/appyopa/index-it.html"/>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Versione Italiana -->
+  <url>
+    <loc>https://muvadi.github.io/appyopa/index-it.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://muvadi.github.io/appyopa/index-it.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://muvadi.github.io/appyopa/index-br.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://muvadi.github.io/appyopa/index-es.html"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Versione Brasiliana / Portoghese -->
+  <url>
+    <loc>https://muvadi.github.io/appyopa/index-br.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://muvadi.github.io/appyopa/index-it.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://muvadi.github.io/appyopa/index-br.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://muvadi.github.io/appyopa/index-es.html"/>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Versione Spagnola -->
+  <url>
+    <loc>https://muvadi.github.io/appyopa/index-es.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://muvadi.github.io/appyopa/index-it.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://muvadi.github.io/appyopa/index-br.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://muvadi.github.io/appyopa/index-es.html"/>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
